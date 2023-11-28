@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	for i := 0; i <= 10; i++ {
+		fmt.Printf("Hello-%d \n", i)
+	}
+}
+
+/*
+* Loop: Mengulang-ulang blok kode sesuai dengan kondisi acuan yang terpenuhi
+* */
