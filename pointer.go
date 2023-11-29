@@ -3,29 +3,26 @@ package main
 import "fmt"
 
 func main() {
-  // Deklarasi 
-  var numberB *int 
+	// Deklarasi
+	var numberB *int
 
-  // Inisialisasi
-  var numberA int = 4
-  numberB = &numberA
+	// Inisialisasi
+	var numberA int = 4
+	numberB = &numberA
 
-  fmt.Println(numberA)
-  fmt.Println(&numberA)
+	fmt.Println("Value:", numberA)
+	fmt.Println("Address:", &numberA)
 
-  fmt.Println(*numberB)
-  fmt.Println(numberB)
+	fmt.Println("Value:", *numberB)
+	fmt.Println("Address:", numberB)
 
-  fmt.Println("")
+	fmt.Println("")
 
-  // Perubahan nilai 
-  *numberB = 5
+	fmt.Println("Before:", numberA)
 
-  fmt.Println(numberA)
-  fmt.Println(&numberA)
-
-  fmt.Println(*numberB)
-  fmt.Println(numberB)
+	// Perubahan nilai
+	*numberB = 5
+	fmt.Println("After:", *numberB)
 
 	// Deklarasi
 	var name *string = new(string)
@@ -37,9 +34,12 @@ func main() {
 
 /*
 * Pointer: Reference / alamat memori
-*   Variable yang reference / memiliki alamt memori yang sama, saling berhubungan satu sama lain 
-* Variable biasa bisa diambil nilai pointernya dengan menambahkan ampersand (&) / Referencing 
-* Variable pointer bisa diambil nilai aslinya dengan menambahkan asterisk (*) / Deferencing 
+* Variable pointer: Variable yang berisi alamat memori suatu nilai
+* Variable di go pass by value
+* 	Jika kirim variable ke function, method, atau variable lain yang dikirim adalah hasil duplikasinya
+*   Variable yang reference / memiliki alamt memori yang sama, saling berhubungan satu sama lain
+* & ampersand (Referencing): Mengambil nilai pointer dari variable biasa
+* * asterisk (Deferencing): Mengambil nilai asli dari variable pointer
  * New: Membuat variable pointer dengan tipe data tertentu
- * Nilai default variable pointer: nil 
+ * Nilai default: nil
  *  Nilai default sesuai dengan tipe datanya*/
