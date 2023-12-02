@@ -14,17 +14,18 @@ func main() {
 }
 
 /*
-* Non-desimal:
-*   Bilangan cacah
-*     uint8, uint16, uint32, uint64
-*   Bilangan bulat
-*     int8, int16, int32, int64
-* Desimal:
-*   float32, float64
-* Alias:
-*   uint: uint32 / uint64 (Tergantung nilai)
-*   byte: uint8
-*   rune: int32
-*   int: int32 / int64 (Tergantung nilai)
-* Pilih tipe data sesuai jangkauan, efeknya ke alokasi memori variable
-* Default value: 0*/
+ * Non-desimal:
+ *   Bilangan cacah
+ *     uint8, uint16, uint32, uint64
+ *   Bilangan bulat
+ *     int8, int16, int32, int64
+ * Desimal:
+ *   float32, float64
+ * Alias:
+ *   uint: uint32 / uint64 (Tergantung nilai)
+ *   byte: uint8
+ *   rune: int32
+ *   int: int32 / int64 (Tergantung nilai)
+ * Pilih tipe data sesuai jangkauan, efeknya ke alokasi memori variable
+ * Default value: 0
+ */

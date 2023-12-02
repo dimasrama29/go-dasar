@@ -10,6 +10,6 @@ func main() {
 }
 
 /*
-* Operator perbandingan:
-*   ==, >, <, >=, <=, !
-* Hasilnya berupa boolean (true / false)*/
+ * ==, >, <, >=, <=, !
+ * Hasilnya berupa boolean (true / false)
+ */

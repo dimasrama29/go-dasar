@@ -15,6 +15,7 @@ func main() {
 }
 
 /*
-* Backtick: Semua karakter di dalamnya tidak di escape
-*   Termasuk "", '', newline
-*   Default nilai: ""*/
+ * Backtick: Semua karakter di dalamnya tidak di escape
+ *   Termasuk "", '', newline
+ *   Default nilai: ""
+ */

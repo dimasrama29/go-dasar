@@ -10,5 +10,6 @@ func main() {
 
 /*
  * 2 jenis tipe boolean:
- *  true dan false
- * Default value: false*/
+ * 	true dan false
+ * Default value: false
+ */

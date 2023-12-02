@@ -14,6 +14,5 @@ func main() {
 }
 
 /*
-* Operator logika:
-*   &&, ||, !
+* &&, ||, !
 * Membandingkan boolean dan menghasilkan nilai bool */

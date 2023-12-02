@@ -1,14 +1,17 @@
 package main
 
 func main() {
+	// Manifest typing
 	const firstName string = "Dimas"
+
+	// Type inference
 	const lastName = "Ramadhansyah"
 
 	// Multi-variable
 	const (
 		isMarried bool = false
-		pi             = 3.14
 		angka          // Memiliki tipe data dan value yang sama dengan atasnya
+		pi        = 3.14
 	)
 
 	const satu, dua int = 1, 2
@@ -16,6 +19,6 @@ func main() {
 }
 
 /*
-* Konstanta: Variable yang nilainya tidak bisa diubah
-* Tidak error jika tidak ditampilkan
-* */
+ * Konstanta: Variable yang nilainya tidak bisa diubah
+ * Tidak error jika tidak ditampilkan
+ */
