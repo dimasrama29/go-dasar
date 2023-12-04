@@ -27,9 +27,10 @@ func main() {
 }
 
 /*
-* Conditional: Mengontrol alur program
-* Ada 2 macam Conditional:
-*   If else
-*   Switch
-* Variable temporary: Hanya bisa digunakan di blok ditempatkan
-*   Hanya bisa menggunakan := */
+ * Conditional: Mengontrol alur program
+ * Ada 2 macam Conditional:
+ *   If else
+ *   Switch
+ * Variable temporary: Hanya bisa digunakan di blok ditempatkan
+ *   Hanya bisa menggunakan :=
+ */

@@ -30,6 +30,7 @@ func main() {
 }
 
 /*
-* Switch: Fokus pada satu variable
-*   Ketika case terpenuhi, tidak dilanjutkan pengecekan berikutnya
-* Fallthrough: Memaksa pengecekan diteruskan ke satu case selanjutnya*/
+ * Switch: Fokus pada satu variable
+ *   Ketika case terpenuhi, tidak dilanjutkan pengecekan berikutnya
+ * Fallthrough: Memaksa pengecekan diteruskan ke satu case selanjutnya
+ */

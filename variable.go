@@ -21,14 +21,17 @@ func main() {
 	// Inisialisasi
 	first, second, third = 1, 2, 3
 	forth, fifth, sixth := 5, "6", false // Jika menggunakan type inference, bisa berbeda tipe data
+
+	fmt.Println(first, second, third, forth, fifth, sixth)
 }
 
 /*
  * 2 cara penulisan variable
- *	Manifest Typing: Menuliskan tipe data
+ * 	Manifest Typing: Menuliskan tipe data
  *	Type inference: Tanpa menuliskan tipe data
  *		Tipe data menyesuaikan nilainya
  *     	:= hanya untuk assignment
  *     	:= hanya digunakan di dalam block fungsi
  * Semua variable yang dideklarasikan harus di tampilkan
+ * 	_ untuk menampung nilai yang tidak digunakan
  */

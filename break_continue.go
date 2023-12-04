@@ -17,5 +17,6 @@ func main() {
 }
 
 /*
-* Break: Menghentikan perulangan secara paksa
-* Continue: Memaksa maju ke perulganan berikutnya*/
+ * Break: Menghentikan perulangan secara paksa
+ * Continue: Memaksa maju ke perulganan berikutnya
+ */

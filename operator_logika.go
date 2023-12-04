@@ -14,5 +14,6 @@ func main() {
 }
 
 /*
-* &&, ||, !
-* Membandingkan boolean dan menghasilkan nilai bool */
+ * &&, ||, !
+ * Membandingkan boolean dan menghasilkan nilai bool
+ */

@@ -27,4 +27,5 @@ func main() {
 }
 
 /*
-* For-range: looping data gabungan (string, array, slice, map)*/
+ * For-range: looping untuk data gabungan (string, array, slice, map)
+ */
